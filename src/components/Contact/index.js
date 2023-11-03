@@ -21,7 +21,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    emailjs.sendForm('service_9huev8p', 'template_s5yxwfo', form.current, '36wNWoRui6A7sDmiF')
+    emailjs.sendForm('service_q1zi7kd', 'template_x3paa66', form.current, '3h-U2S0Reo7R7vJtz4dro')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -86,14 +86,14 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Mithlesh kumar,
+          Vishal kumar Singh,
           <br />
           India,
           <br />
-          Gandhi Nagar, 846009 <br />
-          Darbhanga, Bihar <br />
+          Dighi Kala, 844101 <br />
+          Hajipur, Bihar <br />
           <br />
-          <span>@: mithlesh.9m@gmail.com</span>
+          <span>@: vishusingh987@gmail.com</span>
         </div>
         <div className="map-wrap">
         <MapContainer center={[26.1542, 85.8918]} zoom={13} scrollWheelZoom={false}>
@@ -101,7 +101,7 @@ const Contact = () => {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
            <Marker position={[26.1542, 85.8918]}>
            <Popup>
-             Mithi Lives here. <br /> Come over for a coffee chat ☺️.
+             Vishal Lives here. <br /> Come over for a coffee chat ☺️.
             </Popup>
         </Marker>
         </MapContainer>

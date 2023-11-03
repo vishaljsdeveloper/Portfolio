@@ -32,11 +32,11 @@ const Sidebar = () => {
     return (
     <div className="nav-bar">
       <div className="logo">
-        <Link to="/">
+        {/* <Link to="/">
         <img src={LogoS} alt="Logo" />
-        </Link>
+        </Link> */}
         <FontAwesomeIcon icon={faBars} color="#fff" className='hamburger' onClick={toggle}/>
-        <h3 className="sub-logo">Mithlesh</h3>
+        <h3 className="sub-logo">Vishal</h3>
       </div>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
@@ -48,9 +48,9 @@ const Sidebar = () => {
         <NavLink activeclassname="active" className="skill-link" to="/skill">
           <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
         </NavLink>
-        <NavLink activeclassname="active" className="portfolio-link" to="/portfolio">
+        {/* <NavLink activeclassname="active" className="portfolio-link" to="/portfolio">
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
-        </NavLink>
+        </NavLink> */}
         <NavLink
           activeclassname="active"
           className="contact-link"
@@ -62,7 +62,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/mithicode/"
+            href="https://www.linkedin.com/in/vishal-kumar-singh-002a14259/"
             target="_blank"
             rel="noreferrer"
           >
@@ -71,14 +71,14 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/Mithi-code"
+            href="https://github.com/vishaljsdeveloper"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://www.facebook.com/mithlesh1.2.3"
             rel="noreferrer"
@@ -91,7 +91,7 @@ const Sidebar = () => {
           <a href="https://www.instagram.com/lazy_mithi/?hl=en" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   )

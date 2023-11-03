@@ -77,10 +77,7 @@ const Skill = () => {
             responsive website that are fast, easy to use, and built with best
             practices. The main area of my expertise is front-end development,
             HTML,CSS,JS,RECAT,REDUX, building small and medium web apps, custom
-            plugin,features,animationsand coding interactive layouts.<br /> <br />I also
-            have full-stack developer experience. In microverse(Coding School)
-            created full-stack projects using Ruby and Rails, also reviewed
-            projects.
+            plugin,features,animationsand coding interactive layouts.<br />
           </p>
         </div>
         <div className='exp-bar'>
@@ -95,11 +92,11 @@ const Skill = () => {
             </li>
             <li>
             <p>Backbend</p>
-	           	<Progress done="70"/>
+	           	<Progress done="50"/>
             </li>
             <li>
-            <p>Ruby and Rails</p>
-	           	<Progress done="80"/>
+            <p>Node / Mongo DB</p>
+	           	<Progress done="50"/>
             </li>
           </ul>
         </div>

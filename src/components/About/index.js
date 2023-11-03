@@ -36,7 +36,7 @@ const About = () => {
             />
           </h1>
           <p className='about-text'>
-            I'm a full-stack developer located in India. I've serious passion for coding.
+            I'm a FrontEnd developer located in India. I've serious passion for coding.
             <br />
             <br />
             I'm very ambitious fullstack developer looking for a role in
