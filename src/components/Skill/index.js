@@ -70,33 +70,33 @@ const Skill = () => {
             />
           </h1>
           <p className='skill-text'>
-            Since beginning of my journey as a freelance developer nearly 2
-            years ago,I've done remote work for agencies, consulted for
-            startups, and collabrated with talented people to create web
-            products for both business and customber use.<br /> <br />I created succesfully
-            responsive website that are fast, easy to use, and built with best
+            Since the beginning of my journey as a full-stack developer and trainer nearly 8
+            years ago, I did work for reputed companies like Flipkart and Amazon, did remote work for agencies, consulted for
+            startups, and collaborated with talented people to create web
+            products for both business and customer use.<br /> <br />I created successfully
+            responsive website that is fast, easy to use, and built with the best
             practices. The main area of my expertise is front-end development,
-            HTML,CSS,JS,RECAT,REDUX, building small and medium web apps, custom
-            plugin,features,animationsand coding interactive layouts.<br />
+            HTML, CSS, JS, RECAT, REDUX, building small and medium web apps, custom
+            plugin, features, animations, and coding interactive layouts.<br />
           </p>
         </div>
         <div className='exp-bar'>
           <ul className='progress-bar'>
             <li >
             <p>Frontend</p>
-	           	<Progress done="95"/>
+	           	<Progress done="100"/>
             </li>
             <li >
             <p>React</p>
-	           	<Progress done="80"/>
+	           	<Progress done="100"/>
             </li>
             <li>
             <p>Backbend</p>
-	           	<Progress done="50"/>
+	           	<Progress done="80"/>
             </li>
             <li>
             <p>Node / Mongo DB</p>
-	           	<Progress done="50"/>
+	           	<Progress done="80"/>
             </li>
           </ul>
         </div>
