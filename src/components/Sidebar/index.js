@@ -32,9 +32,6 @@ const Sidebar = () => {
     return (
     <div className="nav-bar">
       <div className="logo">
-        {/* <Link to="/">
-        <img src={LogoS} alt="Logo" />
-        </Link> */}
         <FontAwesomeIcon icon={faBars} color="#fff" className='hamburger' onClick={toggle}/>
         <h3 className="sub-logo">Vishal</h3>
       </div>
@@ -48,9 +45,6 @@ const Sidebar = () => {
         <NavLink activeclassname="active" className="skill-link" to="/skill">
           <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
         </NavLink>
-        {/* <NavLink activeclassname="active" className="portfolio-link" to="/portfolio">
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
-        </NavLink> */}
         <NavLink
           activeclassname="active"
           className="contact-link"
@@ -69,20 +63,6 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
-        {/* <li>
-          <a
-            href="https://www.facebook.com/mithlesh1.2.3"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/lazy_mithi/?hl=en" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
-          </a>
-        </li> */}
       </ul>
     </div>
   )
