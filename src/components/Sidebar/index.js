@@ -60,15 +60,15 @@ const Sidebar = () => {
         </NavLink>
       </nav>
       <ul>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/vishal-kumar-singh-002a14259/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
-          </a>
-        </li>
+        // <li>
+        //   <a
+        //     href="https://www.linkedin.com/in/vishal-kumar-singh-002a14259/"
+        //     target="_blank"
+        //     rel="noreferrer"
+        //   >
+        //     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+        //   </a>
+        // </li>
         <li>
           <a
             href="https://github.com/vishaljsdeveloper"
